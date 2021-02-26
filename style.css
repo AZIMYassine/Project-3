@@ -1,0 +1,49 @@
+:root {
+    --primary-color: #7b13eb;
+    --secondary-color: #f04f1a;
+  }
+
+.w-100 {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.primary-text {
+  font-family: 'quicksand';
+  font-size: 22px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: quicksand;
+  width: 100%;
+}
+
+header > nav {
+  background-color: var(--primary-color);
+}
+
+.title {
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  margin: 0;
+}
+
+.home__text {
+  margin: 40% auto;
+  text-align: center;
+}
+
+.container {
+  margin-bottom: 60px;
+}
+
+.my-link {
+  text-decoration: none;
+  margin: auto;
+}
